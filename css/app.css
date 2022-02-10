@@ -1,0 +1,117 @@
+		body
+		{
+			color: white;
+			background-color: #1A1A1D;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		
+		#sidebar-wrapper
+		{
+			z-index: 1;
+			position: absolute;
+			width: 0;
+			height: 120%;
+			overflow: hidden;
+			background: #0B3C5D;
+			position: fixed;
+		}
+		
+		#content-wrapper 
+		{
+			width: 100%;
+			position: absolute:
+			padding: 15px;
+		
+		}
+		
+		#wrapper.Displayed #sidebar-wrapper
+		{
+			width: 400px;
+		}
+		
+		#wrapper.Displayed #content-wrapper
+		{
+			padding-left: 400px;
+		}
+		
+		.sidebar-nav
+		{
+			padding: 0;
+			padding-top: 98px;
+			list-style: none;
+		}
+		
+		.sidebar-nav li
+		{
+			vertical-align: middle;
+			line-height: 100px;
+			font-size: 30px;
+		}
+		
+		.sidebar-nav li a
+		{
+			display: block;
+			text-decoration: none;
+			color: white;
+			padding-left: 30px;
+		}
+		
+		.sidebar-nav li a:hover
+		{
+			background: #328CC1;
+		}
+		
+		.toggle-button
+		{
+			color: grey;
+			background-color: transparent;
+			font-size: 40px;
+			border: none;
+		}
+		
+		.toggle-button:hover
+		{
+			color: white;
+		}
+		
+		.nav-item
+		{
+			font-size: 27px;
+		}
+		
+		.earth-logo
+		{
+			padding-top: 100px;
+			width: 100%;
+		}
+		
+		.hello-text
+		{
+			font-size: 100px;
+		
+		}
+		
+		.about-section
+		{
+			background: white;
+			padding-bottom: 50px;
+			color: black;
+			
+		}
+		
+		.no-side-padding
+		{
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		
+		.quote
+		{
+			font-style: italic;
+			font-size: 30px;
+			padding-top: 40px;
+			padding-bottom: 20px;
+			text-align: center;
+			color: #328CC1;
+		}
